@@ -1,0 +1,23 @@
+{
+  "name": "alefesouza",
+  "version": "1.0.0",
+  "description": "Alefe Souza",
+  "main": "./index.json",
+  "scripts": {
+    "postinstall": "cat index.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alefesouza/alefesouza.git"
+  },
+  "keywords": [
+    "person",
+    "contact"
+  ],
+  "author": "Alefe Souza <contact@alefesouza.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alefesouza/alefesouza/issues"
+  },
+  "homepage": "https://github.com/alefesouza/alefesouza#readme"
+}
