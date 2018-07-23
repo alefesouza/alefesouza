@@ -2,9 +2,23 @@
 
 > The [Alefe Souza](https://alefesouza.com) CLI
 
-![](alefesouza.gif)
+![](screenshot.png)
 
-Install Node.js, then:
+## Usage
+
+To install the CLI, first install Node.js, then:
+
+```bash
+$ npx alefesouza
+```
+
+and run:
+
+```bash
+$ alefesouza
+```
+
+To install on Node projects, run:
 
 ```bash
 $ npm install alefesouza
@@ -17,7 +31,6 @@ console.log(require('alefesouza'));
 ```
 
 To get my contact information.
-```
 
 ## Built with
 
