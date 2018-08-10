@@ -1,10 +1,10 @@
 {
   "name": "alefesouza",
-  "version": "2.0.1",
-  "description": "Alefe Souza",
+  "version": "2.5.0",
+  "description": "Alefe Souza CLI",
   "main": "./index.json",
   "scripts": {
-    "postinstall": "cat index.json"
+    "postinstall": "node print.js"
   },
   "bin": {
     "alefesouza": "src/cli.js"
@@ -15,7 +15,6 @@
     "ink-select-input": "^2.0.0",
     "meow": "^5.0.0",
     "opn": "^5.3.0",
-    "term-img": "^2.1.0",
     "terminal-image": "^0.1.1"
   },
   "repository": {
@@ -25,7 +24,9 @@
   "keywords": [
     "alefesouza",
     "person",
-    "contact"
+    "contact",
+    "business card",
+    "Alefe Souza"
   ],
   "author": "Alefe Souza <contact@alefesouza.com>",
   "license": "MIT",

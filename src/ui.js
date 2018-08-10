@@ -1,8 +1,9 @@
 'use strict';
 
-const {h, Text, Color} = require('ink');
+const { h, Text } = require('ink');
 const SelectInput = require('ink-select-input');
 const opn = require('opn');
+const items = require('./items');
 
 const open = url => opn(url, {wait: false});
 
@@ -16,47 +17,11 @@ const handleSelect = item => {
 	}
 };
 
-const items = [
-	{
-		label: 'Website',
-		url: 'https://alefesouza.com'
-	},
-	{
-		label: 'GitHub',
-		url: 'https://github.com/alefesouza'
-	},
-	{
-		label: 'Twitter',
-		url: 'https://twitter.com/alefesouza'
-	},
-	{
-		label: 'LinkedIn',
-		url: 'https://linkedin.com/in/alefesouza'
-	},
-	{
-		label: 'Facebook',
-		url: 'https://facebook.com/alefesouza'
-	},
-	{
-		label: 'Blog',
-		url: 'https://alefesouza.com/blog'
-	},
-	{
-		label: 'Contact',
-		url: 'https://alefesouza.com/contact'
-	}, {
-		label: 'Quit',
-		action() {
-			process.exit();
-		}
-	}
-];
-
 module.exports = () => (
 	<div>
-		<Text>I'm a Full Stack Developer who loves to study programming in my free time.</Text>
+		<Text>I'm a Full Stack Developer who has programming as a hobby, I also like history, geography and photography.</Text>
 
-		<br/>
+		<br />
 
 		<SelectInput items={items} onSelect={handleSelect}/>
 	</div>

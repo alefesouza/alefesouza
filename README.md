@@ -9,13 +9,29 @@
 To install the CLI, first install Node.js, then:
 
 ```bash
-$ npx alefesouza
+$ npm install -g alefesouza
 ```
 
 and run:
 
 ```bash
 $ alefesouza
+```
+
+You can access my information without open CLI, just put what do you want to open after it, like:
+
+```bash
+$ alefesouza github
+```
+
+Will open my GitHub profile, you can also just show some of my information on terminal, like:
+
+```bash
+$ alefesouza show email
+$ contact@alefesouza.com
+
+$ alefesouza show website
+$ https://alefesouza.com
 ```
 
 To install on Node projects, run:
@@ -30,7 +46,13 @@ and
 console.log(require('alefesouza'));
 ```
 
-To get my contact information.
+To get my contact information, you can also use the destructuring assignment, like:
+
+```js
+const { email } = require('alefesouza');
+
+console.log(email) // contact@alefesouza.com
+```
 
 ## Built with
 
